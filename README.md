@@ -10,6 +10,9 @@ Este proyecto consiste en una página web que presenta una investigación teóri
 
 Para que el proyecto esté ordenado y GitHub Pages cargue correctamente, hemos organizado los ficheros así:
 
-* **index.html** → Archivo principal con la estructura semántica, respuestas teóricas y tablas comparativas.
-* **css/style.css** → Hoja de estilos que gestiona el diseño corporativo, la tipografía y la adaptabilidad de la web.
+* **index.html** → Archivo principal con el contenido teórico, comparativa de mercado y tablas de sistemas ERP.
+* **css/style.css** → Hoja de estilos que gestiona el diseño y estructura de la página web
 * **img/** → Carpeta que contiene el esquema funcional y los logotipos de SAP, Microsoft y Odoo.
+
+## 🔗 Visita la web aquí
+[https://paufreixamatos.github.io/FreixaPau_SanchezSergio_2526_ASIX1_0373_RA7_A01_ERP/](https://paufreixamatos.github.io/FreixaPau_SanchezSergio_2526_ASIX1_0373_RA7_A01_ERP/)

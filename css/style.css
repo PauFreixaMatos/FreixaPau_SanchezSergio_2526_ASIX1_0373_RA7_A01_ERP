@@ -1,0 +1,115 @@
+/* DISEÑOS Y ESTILOS DE NUESTRA PÁGINA WEB */
+
+:root {
+    --navy: #0a2540;
+    --blue: #c9a03d; /* Color dorado del estilo de referencia */
+    --light-grey: #fefaf5;
+    --text: #2c2b28;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: var(--text);
+    background-color: var(--light-grey);
+    margin: 0;
+    line-height: 1.7;
+}
+
+header {
+    background: var(--navy);
+    color: var(--white);
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 4px solid var(--blue);
+}
+
+nav {
+    background: var(--navy);
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    background: var(--white);
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: var(--navy);
+    border-bottom: 3px solid var(--blue);
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: var(--navy);
+    font-weight: 600;
+}
+
+/* TABLA TÉCNICA */
+.table-container {
+    overflow-x: auto;
+    margin: 40px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: var(--navy);
+    color: var(--white);
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #f0e5d8;
+}
+
+/* IMÁGENES UNIFORMES */
+.img-card img {
+    width: 250px;           /* Todas miden lo mismo */
+    height: 150px;          /* Todas miden lo mismo */
+    object-fit: contain;    /* No se deforman */
+    background: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.conclusiones-txt {
+    background: #faf3ea;
+    padding: 30px;
+    border-left: 8px solid var(--blue);
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 3px solid var(--blue);
+}
+
+

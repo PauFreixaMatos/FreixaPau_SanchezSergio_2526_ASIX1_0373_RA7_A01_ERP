@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas ERP - Análisis de Implantación | Pau Freixa - Sergio Sánchez</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Introducción a los Sistemas ERP</h1>
+    <p>Parte Teórica y Comparativa de Soluciones de Gestión Empresarial</p>
+</header>
+
+<nav>
+    <a href="#teoria">Parte Teórica</a>
+    <a href="#comparativa">Investigación de Mercado</a>
+    <a href="#conclusiones">Conclusiones</a>
+</nav>
+
+<div class="container">
+    
+    <section id="teoria">
+        <h2>1. Fundamentos de los Sistemas ERP</h2>
+        <div class="main-image-container" style="text-align: center; margin: 30px 0;">
+    <img src="img/esquema-erp.png" alt="Esquema funcional de un ERP" class="img-esquema" style="width: 60%; height: auto; display: inline-block; border-radius: 8px;">
+</div>
+        
+        <article>
+            <h3>1.1 Definición y Propósito: ¿Qué es y para qué sirve?</h3>
+            <p>Un <strong>ERP (Enterprise Resource Planning)</strong> es un sistema de gestión integral compuesto por un conjunto de módulos funcionales que se conectan a una <strong>única base de datos centralizada</strong>. Su propósito es actuar como la "columna vertebral" de la empresa, permitiendo que la información fluya sin interrupciones entre departamentos.</p>
+            <p>Sirve para eliminar las "islas de información", automatizar tareas administrativas repetitivas y ofrecer una visión global del negocio en tiempo real, facilitando la toma de decisiones estratégicas basadas en datos veraces.</p>
+        </article>
+
+        <article>
+            <h3>1.2 Funciones Operativas y Módulos</h3>
+            <p>Las funciones principales abarcan desde la gestión de compras y ventas hasta la producción y el control financiero. Los módulos se clasifican tradicionalmente en:</p>
+            <ul>
+                <li><strong>Módulos Horizontales:</strong> Soluciones estándar para funciones comunes (Contabilidad, RRHH, CRM, Gestión de Proyectos).</li>
+                <li><strong>Módulos Verticales:</strong> Software especializado para sectores específicos (Retail, Industria Química, Sanidad, Construcción).</li>
+            </ul>
+            <p><strong>¿Flexibilidad de instalación?</strong> No se puede instalar "cualquier" módulo de forma aislada. La implementación requiere un estudio de compatibilidad con el "Core" del sistema, la capacidad del hardware y la estructura de licencias contratada.</p>
+        </article>
+
+        <article>
+            <h3>1.3 Integración: El Valor de la Sincronización</h3>
+            <p>La integración es la capacidad del ERP para que una acción en un punto (ej. registrar una venta) genere automáticamente efectos en el resto del sistema (baja de stock, generación de factura, asiento contable y orden de logística).</p>
+            <p><strong>Beneficios frente a otros enfoques:</strong> A diferencia del uso de programas aislados, el ERP reduce drásticamente el error humano, evita la duplicidad de datos (redundancia), mejora la trazabilidad de los productos y procesos, y reduce los costes operativos a largo plazo.</p>
+        </article>
+    </section>
+
+    <section id="comparativa">
+        <h2>2. Estudio Comparativo de Mercado</h2>
+        <p>Análisis de las soluciones líderes actuales según requisitos técnicos y orientación comercial:</p>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Criterio Técnico</th>
+                        <th>SAP S/4HANA</th>
+                        <th>Microsoft Dynamics NAV (BC)</th>
+                        <th>Odoo (Enterprise)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Orientación</strong></td>
+                        <td>Grandes corporaciones y multinacionales con procesos masivos.</td>
+                        <td>Empresas medianas que buscan integración con Office 365.</td>
+                        <td>PYMES y startups que valoran la agilidad y el bajo coste.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hardware / IT</strong></td>
+                        <td><strong>Exigente:</strong> Requiere arquitectura SAP HANA (Memoria In-Memory de alto rendimiento).</td>
+                        <td><strong>Medio:</strong> Servidores Windows con SQL Server (Cloud u On-premise).</td>
+                        <td><strong>Ligero:</strong> Servidores Linux con PostgreSQL. Alta eficiencia de recursos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Funcionalidades</strong></td>
+                        <td>Analítica predictiva, Inteligencia Artificial y procesos industriales.</td>
+                        <td>Gestión financiera avanzada y gran interfaz de usuario amigable.</td>
+                        <td>Modularidad extrema (App Store propia con miles de funciones).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Licencia / Precio</strong></td>
+                        <td>Modelo de licencia perpetua o suscripción (Inversión CAPEX muy alta).</td>
+                        <td>Suscripción mensual por usuario (SaaS). Escalamiento lineal.</td>
+                        <td>Híbrido: Community (Gratis) y Enterprise (Pago por módulo/usuario).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="gallery">
+    <div class="img-card">
+        <img src="img/logo-sap.png" alt="SAP Logo">
+    </div>
+    <div class="img-card">
+        <img src="img/logo-nav.png" alt="Dynamics Logo">
+    </div>
+    <div class="img-card">
+        <img src="img/logo-odoo.png" alt="Odoo Logo">
+    </div>
+</div>
+
+    </section>
+
+    <section id="conclusiones">
+        <h2>3. Conclusiones</h2>
+        <div class="conclusiones-txt">
+            <p>La implementación de un ERP no es un gasto, sino una inversión en eficiencia. Tras analizar las alternativas, concluimos que la clave del éxito no está en elegir el software más potente (como SAP), sino el que mejor se adapte a la madurez tecnológica de la plantilla y a los procesos reales de la empresa. La integración total de módulos es, sin duda, la ventaja competitiva definitiva en la era de la digitalización.</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Documento Web elaborado para la asignatura de Lenguajes de Marcas y Sistemas | Pau Freixa Matos - Sergio Sánchez Ochavo | © 2026</p>
+</footer>
+
+</body>
+</html>
